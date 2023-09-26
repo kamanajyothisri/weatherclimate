@@ -1,0 +1,14 @@
+{
+    "type": "service_account",
+    "project_id": "weather-capstone-98644",
+    "private_key_id": "6760afd0e3ffe14abd4ff948efc0a3c969f33271",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCrWl+S/JvL9jUy\nD6YgaUZ8ZxB4mAWj0yUrAPWsS16L+Dp62vrk42S718lJP59PHZJ7tdkmSBLPyALJ\nADwoHSHpFbdWEjz/SZz/utq0Y9Niwwtoo3hb8cvY9hl7GqxfRshwFV6uKO8QDxGn\nym7pEjxEba+hEvt9i9eaxlaLwX8zJDD4qcrwSC1qJLNsFBPqE8KVSPiTGXtys9bb\n7IP2sC5HPDFoJdaMa5ajhAxRJxuXuR0ZCSOu2uce4mEjMu3ZDpwq7sbCLFq81JZp\n/dCcbhJZ0MaqOpvC9GRlM40INaDpG7iGX0QSLtsSp6snLw6KKnZn44eu3nl4q0CN\n/YyReXozAgMBAAECggEAE0Wv2C1XLIJ9iyrdaWnNxrIk1RtsDvfxhzutZfp4INAD\na8vzSgkVTFdByV5Bgbl2vzk9uiODEiGRxp+jJHPaW4fYvfKBL8lMwip27LEJlmMP\nhm5UXCr+3WEYjpL6biDc7FZK9tWdxbWcK74F6Wrmol+f0EL9TCqNTlgeZcuWjd7F\n4x3SmQNFrlg7X+h0uSk70144j7VOMzO4/YVJBGQrgUDeRgfDjmE/UBB1l5A75K/6\nky4R2OSopWNMxtPSepTGSjfF6AEmMEMw43RtBw5fX27AmXA7EHWAcvS+ruFo5VKp\nBC+nt4HIkjPhCsax959e05zPq9oDex7Yh8Wub7Z0eQKBgQDkzbBddbbCyeWpj3cW\nZj4H92olLiOkDChJorPntQMt2Z7y/CluN6SfM3KfNPLMHn2UraliEcyGqdkvPLoC\nQfWVHbMiAtSpgSNkDT+3dT1RdgBRlKSdLukihwNM/tEIh/TLmA2dtGBXZqHK/Fyt\ntndki0MxeHG2zLeJD4vZKuCCzQKBgQC/uIMTSfMXAftBAl8UCKWF8ayJxIs4qeQB\nCr3sQKl/WqxMdOAvk4H3oqTV0ovrjlpvIUVlDrZQ06Tr8r8H6p3F0+Pxt+iDPET4\nen7w6w7FnrsHBB9NW7nRJqFGwLLIJLxt7RR+Erx8hJaFQRfiHkoQMgHIAIijPFnW\nUDXRXBPw/wKBgQDU6VbZ0WVNY8UUAQ2nSWMl1KTwjjvaNvnyc7YHwth/fQe9Qstm\n5d6Jyr05y3K4YRMpHGUHflqdYUZZ/59z5F8b8LQ1zP6J8UK2ouGM3Us/F5h6UeDQ\n58tINuzqZCCuWJ2CKy9YdnZEPpwGIMo5WBdH95OCYHsoyN1tbIsNfinHbQKBgQCM\nC/trnqw9FUx1K4dKehp3YpeXt4O/a5LLFA6yQnXOOuz7mLCe8FCTFTL1oqxk8IKt\nBQ/NB1c0abXiSVs0LDT96o9q5d2p59+15r1NvVb4EsAqGt/GwYdV+bL7nQ271+Hx\nJqq+gW9AQhY11tvcaCXP+MeGUqV9IDu7qrH1ch56/wKBgHKxCySMwSvgjRkkGjbX\nhOr2Ig0Tm3ESK/drIhlAPUnAc5GzWWGQMLHoiqZfVELgqgYF/gFW6sJlfMbKI4gE\nllqUirkqVgGtMLs0yQm99sRNfPJcXFTAnA590WXeqCdYV0jWxW+pePIj19FOSZR4\nBT30jqyVSo7cTCi29kSIWMjG\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-4sldn@weather-capstone-98644.iam.gserviceaccount.com",
+    "client_id": "110855772849223629188",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-4sldn%40weather-capstone-98644.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+  

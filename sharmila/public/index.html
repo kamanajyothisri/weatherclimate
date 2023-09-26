@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design</title>
+    <link rel="stylesheet" href="designstyle.css">
+    <link rel="icon" href="Aicon.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+    <style>
+        /* Your CSS for the Weather App here */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(120deg, #2980b9, #8e44ad);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            width: 100%;
+        }
+
+        nav label.logo {
+            font-size: 24px;
+            margin-left: 10px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            margin-left: auto;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: normal;
+        }
+
+        .wrapper {
+            width: 400px;
+            border-radius: 7px;
+            background: #fff;
+            margin-top: 20px; /* Added margin to separate from the navigation */
+        }
+
+        .wrapper header {
+            font-size: 21px;
+            color: 1px solid black;
+            font-weight: 500;
+            padding: 16px 15px;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #bfbfbf;
+            justify-content: center; /* Center the content horizontally */
+        }
+
+        header i {
+            cursor: pointer;
+            font-size: 30px;
+            margin-right: 8px;
+        }
+
+        .wrapper .input-part {
+            margin: 20px 25px 30px;
+        }
+
+        .input-part input,
+        .input-part button {
+            width: 100%;
+            height: 55px;
+            border: none;
+            outline: none;
+            font-size: 18px;
+            border-radius: 7px;
+        }
+
+        .input-part input {
+            text-align: center;
+            border: 1px solid #bfbfbf;
+        }
+
+        .input-part button {
+            color: #fff;
+            background: #43affc;
+            cursor: pointer;
+        }
+
+        .input-part .seperator {
+            height: 1px;
+            width: 100%;
+            margin: 25px 0;
+            background: #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .seperator::before {
+            content: "or";
+            font-size: 19px;
+            padding: 0 15px;
+            background: #fff;
+            color: #ccc;
+        }
+
+        .input-part .info-txt {
+            font-size: 17px;
+            border-radius: 7px;
+            text-align: center;
+            padding: 12px 10px;
+            margin-bottom: 15px;
+        }
+
+        .info-txt.valid {
+            color: #24445a;
+            background: #d1ecf1;
+            border: 1px solid #bee5eb;
+        }
+
+        .info-txt.invalid {
+            color: red;
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+        }
+
+        .input-part input:focus,
+        .input-part input:valid {
+            border: 2px solid #43affc;
+        }
+
+        /* Weather section styles */
+        .Weather-part {
+            padding: 20px;
+            text-align: center;
+            display: none; /* Initially hidden */
+        }
+
+        .weather-info {
+            font-size: 24px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .temperature {
+            font-size: 48px;
+        }
+
+        .weather-description {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <label class="logo">Weather</label>
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="signup.html">Signup</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <div class="wrapper">
+        <header>Weather</header>
+        <section class="input-part">
+            <p class="info-txt valid">Please enter a valid city name</p>
+            <input type="text" id="cityInput" placeholder="Enter city name" spellcheck="false" required>
+            <div class="seperator"></div>
+            <button id="getLocationBtn">Get Weather</button>
+        </section>
+    </div>
+    <script>
+        document.getElementById('getLocationBtn').addEventListener('click', function () {
+            const cityInput = document.getElementById('cityInput').value;
+
+            // Construct the URL with query parameters
+            const url = `weather.html?city=${encodeURIComponent(cityInput)}`;
+
+            // Redirect to weather.html
+            window.location.href = url;
+        });
+    </script>
+   
+</body>
+</html>
